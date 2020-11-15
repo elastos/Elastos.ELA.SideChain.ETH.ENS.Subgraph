@@ -8,7 +8,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: ENSRegistry
-    network: mainnet
+    network: testnet
     source:
       address: '0xbA2ac9347448bfAEF5743E4161DCc95778F596e5'
       abi: EnsRegistry
@@ -35,7 +35,7 @@ dataSources:
           handler: handleNewTTL
   - kind: ethereum/contract
     name: ENSRegistryOld
-    network: mainnet
+    network: testnet
     source:
       # address: '0x314159265dd8dbb310642f98f50c066173c1259b'
       abi: EnsRegistry
@@ -62,7 +62,7 @@ dataSources:
           handler: handleNewTTLOldRegistry
   - kind: ethereum/contract
     name: Resolver
-    network: mainnet
+    network: testnet
     source:
       address: '0x4ef059036DEB6131bde9ceBdA74A0A9E792c2889'
       abi: Resolver
@@ -105,7 +105,7 @@ dataSources:
           handler: handleTextChanged
   - kind: ethereum/contract
     name: AuctionRegistrar
-    network: mainnet
+    network: testnet
     source:
       address: '0x17f84Ed511Aed62173C4d6331fe907b254842f45'
       abi: AuctionRegistrar
@@ -134,7 +134,7 @@ dataSources:
           handler: hashReleased
   - kind: ethereum/contract
     name: BaseRegistrar
-    network: mainnet
+    network: testnet
     source:
       address: '0x3016c8D61b6821ABE1E6b19FddfF38ff2eC55f2a'
       abi: BaseRegistrar
@@ -163,7 +163,7 @@ dataSources:
           handler: handleNameTransferred
   - kind: ethereum/contract
     name: EthRegistrarController
-    network: mainnet
+    network: testnet
     source:
       address: '0x9487a20c94c52A4FC48DEd930885eF8d383035AE'
       abi: EthRegistrarController
@@ -182,7 +182,7 @@ dataSources:
           handler: handleNameRegisteredByController
   - kind: ethereum/contract
     name: Deed
-    network: mainnet
+    network: testnet
     source:
       abi: Deed
     mapping:
